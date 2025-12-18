@@ -1,0 +1,15 @@
+.home {
+    background: #fff5f7;
+    min-height: 100vh;
+
+}
+
+.home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 24px;
+}
+
+.home-container > section {
+    margin-bottom: 80px;
+}
