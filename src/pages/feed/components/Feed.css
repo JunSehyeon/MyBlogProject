@@ -1,0 +1,101 @@
+/* =========================
+   Feed Header
+========================= */
+.feed-header {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.feed-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.feed-desc {
+  font-size: 14px;
+  color: #777;
+}
+
+/* =========================
+   Feed Filter
+========================= */
+.feed-filter {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.feed-filter button {
+  padding: 6px 14px;
+  border-radius: 16px;
+  border: 1px solid #ddd;
+  background: #fff;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.feed-filter button:hover {
+  background: #222;
+  color: #fff;
+  border-color: #222;
+}
+
+/* =========================
+   Feed Post List
+========================= */
+.feed-post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* =========================
+   Feed Card
+========================= */
+.feed-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 20px;
+  border: 1px solid #eee;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.feed-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+.feed-card-meta {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.feed-card-category {
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 12px;
+  background: #ffe4e9;
+  color: #d6336c;
+}
+
+.feed-card-date {
+  font-size: 12px;
+  color: #999;
+}
+
+.feed-card-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.feed-card-summary {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.4;
+}
